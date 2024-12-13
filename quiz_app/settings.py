@@ -136,3 +136,5 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.AllowAny',
     ],
 }
+ALLOW_ADMIN = True
+ADMIN_PASSWORD = '9177' #This is not a good practice.
