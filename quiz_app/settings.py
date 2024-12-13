@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rv(&1odigx08%!81x1xe9_1-fej_l4afw)ap-am5eg@zo@&+pp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['quiz-app-d6xf.onrender.com', 'localhost', '127.0.0.1', 'quiz-react-b87zvztt4-pranavs-projects-3febebc8.vercel.app']
+ALLOWED_HOSTS = ['quiz-app-d6xf.onrender.com', 'localhost', '127.0.0.1', 'https://quiz-react-pranavs-projects-3febebc8.vercel.app/']
 
 
 # Application definition
@@ -127,7 +127,7 @@ STATIC_URL = 'quiz-react/public/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = ['https://quiz-react-b87zvztt4-pranavs-projects-3febebc8.vercel.app']
+CORS_ALLOWED_ORIGINS = ['https://quiz-react-pranavs-projects-3febebc8.vercel.app']
 
 CORS_ALLOW_CREDENTIALS = True
 
