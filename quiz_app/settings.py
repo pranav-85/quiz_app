@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-rv(&1odigx08%!81x1xe9_1-fej_l4afw)ap-am5eg@zo@&+pp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['quiz-app-d6xf.onrender.com', 'localhost', '127.0.0.1', 'quiz-react-b87zvztt4-pranavs-projects-3febebc8.vercel.app']
 
