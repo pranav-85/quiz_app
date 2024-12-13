@@ -128,3 +128,5 @@ STATIC_URL = 'quiz-react/public/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = ['https://quiz-react-b87zvztt4-pranavs-projects-3febebc8.vercel.app']
+
+CORS_ALLOW_CREDENTIALS = True
